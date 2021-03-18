@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  color: blanchedalmond;
+}
+body {
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.nav_label {
+  display: inline;
+  font-size: 8vw;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_no {
+  display: inline-block;
+}
+
+.link {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a:hover {
+  color: white;
+}
+
+footer {
+  margin-top: 400px;
+}
