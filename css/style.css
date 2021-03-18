@@ -1,3 +1,7 @@
+p {
+  color: #91b7c2;
+}
+
 * {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
@@ -41,16 +45,22 @@ a {
 .link {
   padding-left: 50px;
   padding-right: 50px;
+  color: #f69994;
+  font-size: 20px;
 }
 
-a:hover {
+.link:hover {
+  text-decoration: overline;
+}
+
+.nav_label:hover {
   color: black;
   -webkit-text-stroke: 1px #ffebcd;
 }
 
 footer {
   margin-top: 100px;
-}
+  }
 
 p {
   margin-bottom: 100px;
@@ -71,6 +81,8 @@ div {
 /* .pic { */
   height: 600px;
 }
+
+
 
 .body {
     align-items: center;
