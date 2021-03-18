@@ -45,7 +45,7 @@ a {
 
 a:hover {
   color: black;
-  -webkit-text-stroke: 1px blanchedalmond;
+  -webkit-text-stroke: 1px #ffebcd;
 }
 
 footer {
@@ -68,22 +68,36 @@ div {
   display: inline-block;
 }
 
-.pic {
+/* .pic { */
   height: 600px;
 }
 
-/* #no_1:hover { */
+.body {
+    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+canvas {
+    border: solid 1px blanchedalmond;
+    border-left: none;
+    border-right: none;
+    image-rendering: pixelated;
+    /* width: 100vh; */
+}
+
+
+/* #no_1:hover {
   background-image: url('../images/moodboard1.jpg');
   background-size: cover;
   color: black;
 } 
 
-/* #no_2:hover { */
+#no_2:hover {
   background-image: url('../images/moodboard2.jpg');
   background-size: cover;
 } 
 
-/* #no_3:hover { */
+#no_3:hover {
   background-image: url('../images/moodboard3.jpg');
   background-size: cover;
-} 
+}  */
