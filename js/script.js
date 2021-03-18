@@ -128,7 +128,7 @@ class Pong
     }
     clear()
     {
-        this._context.fillStyle = '#000';
+        this._context.fillStyle = '#202020';
         this._context.fillRect(0, 0, this._canvas.width, this._canvas.height);
     }
     collide(player, ball)

@@ -9,7 +9,7 @@ p {
 }
 body {
   background-size: cover;
-  background-color: black;
+  background-color: #202020;
   background-repeat: no-repeat;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .nav_label:hover {
-  color: black;
+  color: #202020;
   -webkit-text-stroke: 1px #ffebcd;
 }
 
