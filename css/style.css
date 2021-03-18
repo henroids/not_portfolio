@@ -23,8 +23,19 @@ a {
   text-decoration: none;
 }
 
-.nav_no {
+.nav_no1 {
   display: inline-block;
+  color: #f69994;
+}
+
+.nav_no2 {
+  display: inline-block;
+  color: #91b7c2;
+}
+
+.nav_no3 {
+  display: inline-block;
+  color: #c191a1;
 }
 
 .link {
@@ -33,13 +44,46 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: black;
+  -webkit-text-stroke: 1px blanchedalmond;
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 p {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
+
+img {
+  display: none;
+}
+
+/* .nav_container {
+  height: 600px;
+} */
+
+div {
+  display: inline-block;
+}
+
+.pic {
+  height: 600px;
+}
+
+/* #no_1:hover { */
+  background-image: url('../images/moodboard1.jpg');
+  background-size: cover;
+  color: black;
+} 
+
+/* #no_2:hover { */
+  background-image: url('../images/moodboard2.jpg');
+  background-size: cover;
+} 
+
+/* #no_3:hover { */
+  background-image: url('../images/moodboard3.jpg');
+  background-size: cover;
+} 
