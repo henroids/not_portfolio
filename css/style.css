@@ -58,6 +58,11 @@ a {
   -webkit-text-stroke: 1px #ffebcd;
 }
 
+.current {
+  color: #202020;
+  -webkit-text-stroke: 1px #ffebcd;
+}
+
 footer {
   margin-top: 100px;
   }
