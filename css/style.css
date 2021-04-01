@@ -106,7 +106,18 @@ canvas {
 #caip {
   display: block;
   margin: auto;
+  padding-top: 50px;
+  margin-left: -80px;
 }
+
+.video_container {
+  display: block;
+  width: 730px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* #no_1:hover {
   background-image: url('../images/moodboard1.jpg');
