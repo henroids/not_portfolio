@@ -102,6 +102,11 @@ canvas {
     /* width: 100vh; */
 }
 
+/* video */
+#caip {
+  display: block;
+  margin: auto;
+}
 
 /* #no_1:hover {
   background-image: url('../images/moodboard1.jpg');
