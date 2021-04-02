@@ -142,6 +142,10 @@ html {
   background: #FF0000;
 }
 
+.storyboard {
+  background-image: url("../images/storyboard.png");
+}
+
 /* #no_1:hover {
   background-image: url('../images/moodboard1.jpg');
   background-size: cover;
