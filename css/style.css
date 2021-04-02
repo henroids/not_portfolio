@@ -116,6 +116,12 @@ canvas {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#caip_blog {
+  margin-left: -200px;
+  margin-top: -20px;
 }
 
 
