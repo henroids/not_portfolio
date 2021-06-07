@@ -108,9 +108,8 @@ canvas {
 /* video */
 #caip {
   display: block;
-  margin: auto;
   padding-top: 50px;
-  margin-left: -80px;
+  margin-left: -15px;
   padding-bottom: 20px;
 }
 
@@ -285,12 +284,50 @@ form {
   display: block;
 }
 .top {
+  display: flex;
+  justify-content: space-evenly;
   margin-bottom: 10px;
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.stats {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.phoneColor, .emailColor, .loc {
+  color: #91b7c2;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.location  {
+  width: 100%;
+  /* border: 1px solid blanchedalmond; */
+}
+.phone  {
+  width: 100%;
+  /* border: 1px solid blanchedalmond; */
+}
+.email  {
+  width: 100%;
+  /* border: 1px solid blanchedalmond; */
+}
+
+.work {
+  font-size: 4vw;
+
+}
+.work:hover {
+  color: #202020;
+  -webkit-text-stroke: 1px #ffebcd;
+}
 
 
 /* #no_1:hover {
