@@ -281,6 +281,7 @@ form {
 }
 
 .div-space {
+  margin-top: -70px;
   display: block;
 }
 .top {
