@@ -252,14 +252,15 @@ button, input, optgroup, select, textarea {
 }
 
 .text-field {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin-left: auto ;
   margin: auto;
   border: 1px solid blanchedalmond;
 }
 
 textarea {
+  display: block;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid blanchedalmond;
@@ -277,6 +278,10 @@ textarea {
 form {
   margin-left: auto;
   margin-right: auto;
+}
+
+.div-space {
+  display: block;
 }
 
 
