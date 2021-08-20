@@ -69,11 +69,21 @@ footer {
   margin-top: 100px;
   }
 
-p {
-  margin-bottom: 100px;
+
+
+.tag p {
+  color: #f69994;
+  font-size: 20px;
+  
 }
 
+.art_container {
+  display: inline-block;
+}
 
+img {
+  max-width: 300px;
+}
 
 /* .nav_container {
   height: 600px;
