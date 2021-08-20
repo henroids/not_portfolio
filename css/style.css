@@ -78,15 +78,15 @@ footer {
 }
 
 .art_container {
-  display: inline-block;
+  display: inline;
 }
 
 .img_a {
-  width: 300px;
+  width: 100%;
   height: 500px;
 }
 .img_b {
-  width: 900px;
+  max-width: 100%;
   /* height: 500px; */
 }
 
