@@ -311,11 +311,12 @@ form {
 }
 
 .stats {
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   text-align: center;
-  display: flex;
+  display: inline;
   justify-content: space-evenly;
 }
 
@@ -335,6 +336,7 @@ form {
 }
 .email  {
   width: 100%;
+  margin-bottom: 50px;
   /* border: 1px solid blanchedalmond; */
 }
 
