@@ -111,6 +111,7 @@ div {
 }
 
 canvas {
+    width: 75vw;
     border: solid 1px blanchedalmond;
     border-left: none;
     border-right: none;
