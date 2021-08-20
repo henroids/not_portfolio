@@ -78,7 +78,7 @@ footer {
 }
 
 .art_container {
-  display: inline;
+  display: inline-block;
 }
 
 .img_a {
