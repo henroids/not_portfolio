@@ -128,12 +128,12 @@ canvas {
 
 video {
   /* override other styles to make responsive */
-  width: 100%    !important;
+  max-width: 100%    !important;
   height: auto   !important;
 }
 
 .video_container {
-  width: 66vw;  
+  width: 75vw;  
   height: auto;
   /* overflow: hidden; */
   margin-left: auto;
