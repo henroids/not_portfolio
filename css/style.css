@@ -120,24 +120,28 @@ canvas {
 
 /* video */
 #caip {
-  display: block;
+  display: inline-block;
   padding-top: 50px;
-  margin-left: -15px;
   padding-bottom: 20px;
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 .video_container {
-  display: block;
-  width: 730px;
-  overflow: hidden;
+  width: 66vw;  
+  height: auto;
+  /* overflow: hidden; */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 #caip_blog {
-  margin-left: -200px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 html {
