@@ -361,3 +361,7 @@ form {
   background-image: url('../images/moodboard3.jpg');
   background-size: cover;
 }  */
+
+.about {
+  max-width: 90%;
+}
