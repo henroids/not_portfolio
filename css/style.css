@@ -368,5 +368,10 @@ form {
 
 .intro {
   width: 90%;
-  border: 2px solid red;
+  border: 2px solid #91b7c2;
+}
+
+li {
+  list-style: circle;
+  color: #91b7c2;
 }
