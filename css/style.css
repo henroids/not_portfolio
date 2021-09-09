@@ -365,3 +365,8 @@ form {
 .about {
   max-width: 90%;
 }
+
+.intro {
+  width: 90%;
+  border: 2px solid red;
+}
