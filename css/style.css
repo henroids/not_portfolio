@@ -367,10 +367,6 @@ form {
   max-width: 90%;
 }
 
-.intro {
-  width: 90%;
-  border: 2px solid #91b7c2;
-}
 
 li {
   list-style: circle;
@@ -550,5 +546,4 @@ li {
 
 li {
   list-style: none;
-  align-items: ;
 }
