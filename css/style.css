@@ -410,6 +410,7 @@ li {
 .overview_container {
   background-color: #202020;
   color: #202020;
+  border: 2px solid blanchedalmond;
   padding: 25px;
   margin-top: 25px;
   border-radius: 5px;
@@ -421,9 +422,11 @@ li {
 }
 
 .conclusion {
+  border: 2px solid blanchedalmond;
   background-color: #202020;
   color: #202020;
   padding: 25px;
+  margin-bottom: 50px;
   margin-top: 25px;
   border-radius: 5px;
   display: grid;
@@ -431,14 +434,16 @@ li {
   grid-template-areas: 
     "title title"
     "problem goal";
+  
 }
 
 .reflection {
-  padding: 20px;
+  padding: 15px;
   border-right: 3px solid blanchedalmond;
 }
 
 .research_container {
+  border: 2px solid blanchedalmond;
   background-color: #202020;
   color: #202020;
   padding: 25px;
@@ -450,6 +455,13 @@ li {
     "title title"
     "reflection direction";
 }
+
+.side {
+  width: 70vw;
+}
+.user_flows {
+  width: 70vw;
+}
 .intro {
   background-color: #202020;
   color: #202020;
@@ -460,16 +472,43 @@ li {
 }
 
 .problem {
+  padding: 15px;
   border-right: 3px solid blanchedalmond;
 }
+.goal {
+  padding: 15px;
+}
 .research_plan {
+  padding: 15px;
   border-right: 3px solid blanchedalmond;
+}
+.insights {
+  padding: 15px;
 }
 
 .competitor {
+  padding: 40px;
   border-bottom: 3px solid blanchedalmond;
 }
 .sitemap {
+  /* border: 3px solid ; */
+  padding: 40px;
   border-bottom: 3px solid blanchedalmond;
 }
+.user_flows {
+  padding: 40px;
+}
 
+.team {
+  background-color: #202020;
+  color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "title title title"
+    "teams tools role";
+}
