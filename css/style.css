@@ -406,8 +406,45 @@ li {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-.touch {
-  width: 100%;
+
+.overview_container {
+  background-color: #202020;
+  color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "problem goal";
 }
 
+.research_container {
+  background-color: #202020;
+  color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "Research Plan Insights";
+}
+.intro {
+  background-color: #202020;
+  color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.problem {
+  border-right: 3px solid blanchedalmond;
+}
+.research_plan {
+  border-right: 3px solid blanchedalmond;
+}
 
