@@ -7,6 +7,7 @@ p {
   text-align: center;
   color: blanchedalmond;
   box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
 body {
@@ -410,8 +411,11 @@ li {
 .overview_container {
   background-color: #202020;
   color: #202020;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid blanchedalmond;
-  padding: 25px;
+  /* padding: 25px; */
   margin-top: 25px;
   border-radius: 5px;
   display: grid;
@@ -421,11 +425,14 @@ li {
     "problem goal";
 }
 
-.conclusion {
+.conclusion_container {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid blanchedalmond;
   background-color: #202020;
   color: #202020;
-  padding: 25px;
+  /* padding: 25px; */
   margin-bottom: 50px;
   margin-top: 25px;
   border-radius: 5px;
@@ -433,8 +440,11 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
     "title title"
-    "problem goal";
-  
+    "problem goal";  
+}
+
+.conclusion_container p, .conclusion_container li {
+  list-style: circle;
 }
 
 .reflection {
@@ -443,10 +453,13 @@ li {
 }
 
 .research_container {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid blanchedalmond;
   background-color: #202020;
   color: #202020;
-  padding: 25px;
+  /* padding: 25px; */
   margin-top: 25px;
   border-radius: 5px;
   display: grid;
@@ -465,10 +478,14 @@ li {
 .intro {
   background-color: #202020;
   color: #202020;
-  padding: 25px;
+  /* padding: 25px; */
   margin-top: 25px;
   border-radius: 5px;
   display: inline-block;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blanchedalmond;
 }
 
 .problem {
@@ -511,4 +528,9 @@ li {
   grid-template-areas: 
     "title title title"
     "teams tools role";
+}
+
+li {
+  list-style: none;
+  align-items: ;
 }
