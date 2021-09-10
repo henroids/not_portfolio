@@ -423,6 +423,11 @@ li {
   grid-template-areas: 
     "title title"
     "problem goal";
+    background-image: url(/not_portfolio/images/times2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
 }
 
 .conclusion_container {
@@ -441,6 +446,11 @@ li {
   grid-template-areas: 
     "title title"
     "problem goal";  
+    background-image: url(/not_portfolio/images/Changes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
 }
 
 .conclusion_container p, .conclusion_container li {
@@ -467,6 +477,11 @@ li {
   grid-template-areas: 
     "title title"
     "reflection direction";
+    background-image: url(/not_portfolio/images/times1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
 }
 
 .side {
@@ -476,7 +491,6 @@ li {
   width: 70vw;
 }
 .intro {
-  background-color: #202020;
   color: #202020;
   /* padding: 25px; */
   margin-top: 25px;
@@ -486,6 +500,11 @@ li {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid blanchedalmond;
+  background-image: url(/not_portfolio/images/language-activism-publish-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
 }
 
 .problem {
@@ -517,7 +536,6 @@ li {
 }
 
 .team {
-  background-color: #202020;
   color: #202020;
   padding: 25px;
   margin-top: 25px;
