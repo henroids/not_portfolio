@@ -420,6 +420,24 @@ li {
     "problem goal";
 }
 
+.conclusion {
+  background-color: #202020;
+  color: #202020;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "problem goal";
+}
+
+.reflection {
+  padding: 20px;
+  border-right: 3px solid blanchedalmond;
+}
+
 .research_container {
   background-color: #202020;
   color: #202020;
@@ -430,7 +448,7 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
     "title title"
-    "Research Plan Insights";
+    "reflection direction";
 }
 .intro {
   background-color: #202020;
@@ -446,5 +464,12 @@ li {
 }
 .research_plan {
   border-right: 3px solid blanchedalmond;
+}
+
+.competitor {
+  border-bottom: 3px solid blanchedalmond;
+}
+.sitemap {
+  border-bottom: 3px solid blanchedalmond;
 }
 
