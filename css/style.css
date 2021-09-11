@@ -493,6 +493,7 @@ li {
 }
 
 .conclusion_container p, .conclusion_container li {
+  
   list-style: circle;
 }
 
