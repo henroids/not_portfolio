@@ -425,6 +425,27 @@ li {
   background-color: rgb(32, 32, 32);
   background-blend-mode: overlay;
 }
+.overview_container_pizza {
+  background-color: #202020;
+  color: #202020;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blanchedalmond;
+  /* padding: 25px; */
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "problem goal";
+    background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
+}
 
 .conclusion_container {
   width: 90vw;
@@ -443,6 +464,28 @@ li {
     "title title"
     "problem goal";  
     background-image: url(/not_portfolio/images/Changes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
+}
+.conclusion_container_pizza {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blanchedalmond;
+  background-color: #202020;
+  color: #202020;
+  /* padding: 25px; */
+  margin-bottom: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "problem goal";  
+    background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(32, 32, 32);
@@ -479,6 +522,27 @@ li {
   background-color: rgb(32, 32, 32);
   background-blend-mode: overlay;
 }
+.research_container_pizza {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blanchedalmond;
+  background-color: #202020;
+  color: #202020;
+  /* padding: 25px; */
+  margin-top: 25px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "reflection direction";
+    background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
+}
 
 .side {
   width: 90vw;
@@ -501,6 +565,24 @@ li {
   background-size: cover;
   background-color: rgb(32, 32, 32);
   background-blend-mode: overlay;
+}
+.intro_pizza {
+  color: #202020;
+  padding: 30px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blanchedalmond;
+  border-radius: 500px;
+  background-image: url(/not_portfolio/images/pizza_logo.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(32, 32, 32);
+  background-blend-mode: overlay;
+  background-position: center;
 }
 
 .problem {
