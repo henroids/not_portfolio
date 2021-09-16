@@ -636,3 +636,7 @@ li {
 li {
   list-style: none;
 }
+
+.side {
+  display: block;
+}
