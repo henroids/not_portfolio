@@ -732,3 +732,13 @@ img {
 .story {
   max-width: 1150px;
 }
+
+.center p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  max-width: 1150px;
+}
