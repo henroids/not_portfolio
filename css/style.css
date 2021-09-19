@@ -344,6 +344,12 @@ form {
   justify-content: space-evenly;
 }
 
+.tops {
+  position: fixed;
+  margin-left: 1100px;
+  margin-bottom: 200px;
+}
+
 .phoneColor, .emailColor, .loc {
   color: #91b7c2;
   font-size: 16px;
