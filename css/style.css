@@ -769,3 +769,16 @@ h1 {
   position: absolute;
   margin-top: 500px;
 }
+
+.stats2 {
+  display: flex;
+  text-align: right;
+  position: fixed;
+  background-color: #202020;
+  /* padding-top: 3px; */
+  padding-bottom: px;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+  width: 100vw;
+  padding-right: 50px;
+}
