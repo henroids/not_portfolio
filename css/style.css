@@ -742,3 +742,9 @@ img {
 h2 {
   max-width: 1150px;
 }
+
+.scissors {
+  /* width: 100vw; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
