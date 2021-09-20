@@ -97,22 +97,11 @@ footer {
 }
 .img_b {
   max-width: 100%;
-  /* height: 500px; */
 }
-
-/* .nav_container {
-  height: 600px;
-} */
 
 div {
   display: inline-block;
 }
-
-/* .pic { */
-  height: 600px;
-}
-
-
 
 .body {
     align-items: center;
@@ -132,8 +121,6 @@ canvas {
 /* video */
 #caip {
   display: inline-block;
-  /* padding-top: 50px; */
-  /* padding-bottom: 20px; */
 }
 
 video {
@@ -180,19 +167,10 @@ html {
   /* background-color: #ffffff; */
   border: 1px solid blanchedalmond;
 }
-/* input {
-  line-height: normal;
-} */
+
 button, input, optgroup, select, textarea {
-  /* color: inherit; */
-  /* font: inherit; */
   margin: 0;
 }
-/* * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} */
 
 input[type="email" i] {
   /* padding: 1px 2px; */
@@ -210,16 +188,9 @@ input {
   display: inline-block;
   text-align: start;
   appearance: auto;
-  background-color: #202020);
+  background-color: #202020;
   -webkit-rtl-ordering: logical;
   cursor: text;
-  /* margin: 0em;
-  font: 400 13.3333px Arial;
-  padding: 1px 2px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial; */
 }
 
 textarea .w-input, textarea .w-select {
@@ -358,16 +329,13 @@ form {
 
 .location  {
   width: 100%;
-  /* border: 1px solid blanchedalmond; */
 }
 .phone  {
   width: 100%;
-  /* border: 1px solid blanchedalmond; */
 }
 .email  {
   width: 100%;
   margin-bottom: 50px;
-  /* border: 1px solid blanchedalmond; */
 }
 
 .work {
@@ -379,23 +347,6 @@ form {
   -webkit-text-stroke: 1px #ffebcd;
 }
 
-
-/* #no_1:hover {
-  background-image: url('../images/moodboard1.jpg');
-  background-size: cover;
-  color: black;
-} 
-
-#no_2:hover {
-  background-image: url('../images/moodboard2.jpg');
-  background-size: cover;
-} 
-
-#no_3:hover {
-  background-image: url('../images/moodboard3.jpg');
-  background-size: cover;
-}  */
-
 .about {
   max-width: 90%;
 }
@@ -406,283 +357,12 @@ li {
   color: #91b7c2;
 }
 
-.sitemap img {
-  display:block;
-  text-align: center;
-  justify-content: center;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-.user_flows img {
-  display:block;
-  text-align: center;
-  justify-content: center;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-.prototype img {
-  display:block;
-  text-align: center;
-  justify-content: center;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-
-.overview_container {
-  background-color: #202020;
-  color: #202020;
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  /* padding: 25px; */
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "problem goal";
-    background-image: url(/not_portfolio/images/times2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-.overview_container_pizza {
-  background-color: #202020;
-  color: #202020;
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  /* padding: 25px; */
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "problem goal";
-    background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-
-.conclusion_container {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  background-color: #202020;
-  color: #202020;
-  /* padding: 25px; */
-  margin-bottom: 50px;
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "problem goal";  
-    background-image: url(/not_portfolio/images/Changes.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-.conclusion_container_pizza {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  background-color: #202020;
-  color: #202020;
-  /* padding: 25px; */
-  margin-bottom: 50px;
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "problem goal";  
-    background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-
-.conclusion_container p, .conclusion_container li {
-  
-  list-style: circle;
-}
-
-.reflection {
-  padding: 15px;
-  border-right: 3px solid blanchedalmond;
-}
-
-.research_container {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  background-color: #202020;
-  color: #202020;
-  /* padding: 25px; */
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "reflection direction";
-    background-image: url(/not_portfolio/images/times1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-.research_container_pizza {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  background-color: #202020;
-  color: #202020;
-  /* padding: 25px; */
-  margin-top: 25px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "title title"
-    "reflection direction";
-    background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-
-.side {
-  width: 100%;
-  display: flex; 
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: flex-start;
-}
-.user_flows {
-  width: 90vw;
-}
-.intro {
-  color: #202020;
-  /* padding: 25px; */
-  margin-top: 25px;
-  border-radius: 5px;
-  display: inline-block;
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  background-image: url(/not_portfolio/images/language-activism-publish-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-}
-.intro_pizza {
-  color: #202020;
-  padding: 30px;
-  margin-top: 25px;
-  border-radius: 5px;
-  display: inline-block;
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid blanchedalmond;
-  border-radius: 500px;
-  background-image: url(/not_portfolio/images/pizza_logo.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: rgb(32, 32, 32);
-  background-blend-mode: overlay;
-  background-position: center;
-}
-
-.problem {
-  padding: 15px;
-  border-right: 3px solid blanchedalmond;
-}
-.goal {
-  padding: 15px;
-}
-.research_plan {
-  padding: 15px;
-  border-right: 3px solid blanchedalmond;
-}
-.insights {
-  padding: 15px;
-}
-
-.competitor {
-  padding: 40px;
-  border-bottom: 3px solid blanchedalmond;
-}
-.sitemap {
-  /* border: 3px solid ; */
-  padding: 40px;
-  border-bottom: 3px solid blanchedalmond;
-}
-.user_flows {
-  padding: 40px;
-}
-
-.team {
-  color: #202020;
-  padding: 25px;
-  margin-top: 25px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-    "title title title"
-    "teams tools role";
-}
 
 li {
   list-style: none;
 }
 
-.side {
-  display: block;
-}
 
-.site_header {
-  position: fixed;
-  background-color: #202020;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  
-  width: 80%;
-}
 
 footer {
   position: relative;
